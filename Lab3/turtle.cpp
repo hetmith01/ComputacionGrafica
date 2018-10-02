@@ -81,9 +81,7 @@ void display(){
     glClearColor(1.0, 1.0, 1.0, 0.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glColor3f(1.0,0.0,0.0);
-    //glutWireTorus(0.25,0.75, 28, 28);
     glColor3f(0.0,0.0,1.0) ;
-    //glutWireCube(0.6) ;
     draw_Turtle();
 
     glutSwapBuffers();
