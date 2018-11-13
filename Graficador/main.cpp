@@ -309,18 +309,4 @@ void inicializa(){
 	gluOrtho2D(0,ANCHO,0,ALTO);
 }
 
-int main(int argc, char **argv){	
-	glutInit(&argc,argv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
-	glutInitWindowSize(ANCHO,ALTO);
-	glutInitWindowPosition(100,50);
-	glutCreateWindow("Pintado");	
-	inicializa();
 
-	glutDisplayFunc(draw);
-	glutMouseFunc(mouse);
-
-	glutMainLoop();
-
-	return 0
-}
